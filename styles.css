@@ -1,0 +1,396 @@
+/* ========= RESET ========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #1f2d1f;
+  line-height: 1.6;
+}
+
+/* ========= LAYOUT ========= */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: 6rem 0;
+}
+
+.center {
+  text-align: center;
+}
+
+/* ========= TYPOGRAPHY ========= */
+.heading-primary {
+  font-size: clamp(2.6rem, 6vw, 4rem);
+  font-weight: 700;
+  color: #fff;
+}
+
+.heading-secondary {
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  margin-bottom: 2rem;
+}
+
+.lead {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* ========= BUTTON ========= */
+.btn {
+  background: #1e4d2b;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* ========= HEADER ========= */
+.header {
+  height: 64px;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2000;
+}
+
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+/* ========= NAV ========= */
+.main-nav-list {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-cta {
+  background: #1e4d2b;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+}
+
+/* ========= HERO ========= */
+.section-hero {
+  height: 90vh;
+  background: url("https://img.freepik.com/premium-photo/golf-course-with-golf-course-field-with-golf-club-background_605423-173530.jpg")
+    center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 700px;
+}
+
+.hero-text {
+  margin: 1.5rem 0 2rem;
+  color: #fff;
+}
+
+/* ========= STATS ========= */
+.stats {
+  background: #1e4d2b;
+  color: #fff;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 3rem;
+}
+
+.stats h3 {
+  font-size: 2.4rem;
+}
+
+/* ========= DONATION SPLIT SECTION ========= */
+
+.donate-section {
+  background: #f6f8f6;
+}
+
+/* Two-column layout */
+.donate-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* LEFT: iframe box */
+.zeffy-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 520px;
+  width: 100%;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.zeffy-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* RIGHT: copy + trust */
+.donate-right {
+  position: relative;
+}
+
+.trust-list {
+  list-style: none;
+  margin: 2rem 0 2.5rem;
+  padding: 0;
+}
+
+.trust-list li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+/* Sticky button */
+.sticky-donate-btn {
+  position: sticky;
+  top: 120px;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+/* Small trust note */
+.trust-note {
+  font-size: 0.9rem;
+  color: #4d5a4d;
+  max-width: 420px;
+}
+
+/* ========= MOBILE ========= */
+@media (max-width: 900px) {
+  .donate-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sticky-donate-btn {
+    position: static;
+  }
+
+  .zeffy-wrapper {
+    height: 560px;
+  }
+}
+
+
+
+/* ========= TEAM ========= */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.team-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.team-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+
+
+/* ========= FOOTER ========= */
+
+.footer {
+  background: #0f1f14;
+  color: #fff;
+  padding: 5rem 0 2rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 3rem;
+}
+
+.footer h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.footer h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  color: #d2d8d2;
+  line-height: 1.6;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  color: #d2d8d2;
+}
+
+.footer-links a {
+  color: #d2d8d2;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-btn {
+  margin-top: 1rem;
+  background: #1e4d2b;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #bfc6bf;
+}
+
+/* ========= FOOTER MOBILE ========= */
+@media (max-width: 900px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-btn {
+    display: inline-block;
+  }
+}
+
+/* ========= HAMBURGER ========= */
+.btn-mobile-nav {
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.bar {
+  width: 26px;
+  height: 3px;
+  background: #000;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.nav-open .bar:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+.nav-open .bar:nth-child(2) {
+  opacity: 0;
+}
+.nav-open .bar:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+/* ========= MOBILE ========= */
+@media (max-width: 900px) {
+  .btn-mobile-nav {
+    display: flex;
+  }
+
+  .main-nav {
+    position: fixed;
+    inset: 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+  }
+
+  .nav-open .main-nav {
+    transform: translateX(0);
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    font-size: 1.6rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========= SCROLL REVEAL ========= */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
