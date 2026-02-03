@@ -46,7 +46,7 @@ body {
 
 /* ========= BUTTON ========= */
 .btn {
-  background: #1e4d2b;
+  background: #4B6C25;
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 999px;
@@ -58,7 +58,7 @@ body {
 /* ========= HEADER ========= */
 .header {
   height: 64px;
-  padding: 0 2rem;
+  padding: 0 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,6 +72,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: #000;
+   
 }
 
 /* ========= NAV ========= */
@@ -88,10 +89,33 @@ body {
 }
 
 .nav-cta {
-  background: #1e4d2b;
+  background: #4B6C25;
   color: #fff;
   padding: 0.4rem 1rem;
   border-radius: 999px;
+}
+
+.nav-logo {
+  height: 48px; /* Adjust this number to resize */
+  width: auto; /* Keeps proportions correct */
+  display: block;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* adjust spacing between logo + title */ text-decoration: none;
+}
+
+.logo-text {
+  font-weight: 700;  
+  color: #000; 
+}
+
+@media (max-width: 600px) {
+  .nav-logo {
+    height: 40px;
+  }
 }
 
 /* ========= HERO ========= */
@@ -122,7 +146,7 @@ body {
 
 /* ========= STATS ========= */
 .stats {
-  background: #1e4d2b;
+  background: #4B6C25;
   color: #fff;
 }
 
@@ -159,7 +183,7 @@ body {
   width: 100%;
   border-radius: 18px;
   background: #fff;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 .zeffy-wrapper iframe {
@@ -216,8 +240,6 @@ body {
   }
 }
 
-
-
 /* ========= TEAM ========= */
 .team-grid {
   display: grid;
@@ -239,9 +261,6 @@ body {
   object-fit: cover;
   border-radius: 12px;
 }
-
-
-
 
 /* ========= FOOTER ========= */
 
@@ -294,12 +313,35 @@ body {
 
 .footer-btn {
   margin-top: 1rem;
-  background: #1e4d2b;
+  background: #4B6C25;
+}
+
+.footer-logo {
+  width: 120px; /* adjust to your preferred size */
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.footer-brand {
+  text-align: center;
+}
+
+.footer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 /* Bottom bar */
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   margin-top: 4rem;
   padding-top: 1.5rem;
   text-align: center;
@@ -319,7 +361,20 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .footer-logo {
+    width: 90px;
+    align-items: center;
+  }
+}
+
 /* ========= HAMBURGER ========= */
+
+.btn-mobile-nav {
+  position: relative;
+  z-index: 9999;
+}
+
 .btn-mobile-nav {
   width: 44px;
   height: 44px;
