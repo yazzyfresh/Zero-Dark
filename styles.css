@@ -422,6 +422,7 @@ body {
     align-items: center;
     transform: translateX(100%);
     transition: transform 0.4s ease;
+    z-index: 1000;
   }
 
   .nav-open .main-nav {
@@ -436,7 +437,14 @@ body {
   .stats-grid {
     grid-template-columns: 1fr;
   }
+  .btn-mobile-nav {
+  position: relative;
+  z-index: 9999;
 }
+.header {
+  z-index: 2000;
+}
+
 
 /* ========= SCROLL REVEAL ========= */
 .reveal {
