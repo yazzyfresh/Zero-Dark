@@ -5,7 +5,6 @@ colors:////darkest to lightest used for fonts and background
 
 */
 
-
 /* ========= RESET ========= */
 * {
   margin: 0;
@@ -36,7 +35,7 @@ body {
 
 /* ========= TYPOGRAPHY ========= */
 .heading-primary {
-  font-size: clamp(2.6rem, 6vw, 4rem);
+  font-size: clamp(1.4rem, 3vw, 4rem);
   font-weight: 700;
   color: #fff;
 }
@@ -54,7 +53,7 @@ body {
 
 /* ========= BUTTON ========= */
 .btn {
-  background: #4B6C25;
+  background: #4b6c25;
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 999px;
@@ -65,7 +64,7 @@ body {
 
 /* ========= HEADER ========= */
 .header {
-  height: 64px;
+  height: 5%;
   padding: 0 1rem;
   display: flex;
   align-items: center;
@@ -80,7 +79,6 @@ body {
   font-weight: 600;
   text-decoration: none;
   color: #000;
-   
 }
 
 /* ========= NAV ========= */
@@ -97,7 +95,7 @@ body {
 }
 
 .nav-cta {
-  background: #4B6C25;
+  background: #4b6c25;
   color: #fff;
   padding: 0.4rem 1rem;
   border-radius: 999px;
@@ -112,12 +110,13 @@ body {
 .logo-link {
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* adjust spacing between logo + title */ text-decoration: none;
+  gap: 0.5rem; /* adjust spacing between logo + title */
+  text-decoration: none;
 }
 
 .logo-text {
-  font-weight: 700;  
-  color: #000; 
+  font-weight: 700;
+  color: #000;
 }
 
 @media (max-width: 600px) {
@@ -154,7 +153,7 @@ body {
 
 /* ========= STATS ========= */
 .stats {
-  background: #4B6C25;
+  background: #4b6c25;
   color: #fff;
 }
 
@@ -213,7 +212,6 @@ body {
   min-height: 900px;
   border: none;
 }
-
 
 /* RIGHT: copy + trust */
 .donate-right {
@@ -334,7 +332,7 @@ body {
 
 .footer-btn {
   margin-top: 1rem;
-  background: #4B6C25;
+  background: #4b6c25;
 }
 
 .footer-logo {
@@ -376,7 +374,6 @@ body {
   color: #767676;
   margin-top: auto;
 }
-
 
 /* ========= FOOTER MOBILE ========= */
 @media (max-width: 900px) {
@@ -438,7 +435,6 @@ body {
 
 /* ========= MOBILE ========= */
 @media (max-width: 900px) {
-  
   .btn-mobile-nav {
     display: flex;
   }
@@ -468,13 +464,12 @@ body {
     grid-template-columns: 1fr;
   }
   .btn-mobile-nav {
-  position: relative;
-  z-index: 9999;
-}
-.header {
-  z-index: 2000;
-}
-
+    position: relative;
+    z-index: 9999;
+  }
+  .header {
+    z-index: 2000;
+  }
 }
 
 /* ========= SCROLL REVEAL ========= */
@@ -493,7 +488,9 @@ body {
 .reveal {
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
 }
 
 /* When revealed */
@@ -514,7 +511,15 @@ body {
   transition: all 0.6s ease;
 }
 
-.reveal-stagger.active > *:nth-child(1) { transition-delay: 0.1s; }
-.reveal-stagger.active > *:nth-child(2) { transition-delay: 0.2s; }
-.reveal-stagger.active > *:nth-child(3) { transition-delay: 0.3s; }
-.reveal-stagger.active > *:nth-child(4) { transition-delay: 0.4s; }
+.reveal-stagger.active > *:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.reveal-stagger.active > *:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.reveal-stagger.active > *:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.reveal-stagger.active > *:nth-child(4) {
+  transition-delay: 0.4s;
+}
