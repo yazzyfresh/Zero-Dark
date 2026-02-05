@@ -65,7 +65,7 @@ body {
 /* ========= HEADER ========= */
 .header {
   height: 5%;
-  padding: 0 2rem;
+  padding: 0 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -110,7 +110,7 @@ body {
 .logo-link {
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* adjust spacing between logo + title */
+  gap: 1rem; /* adjust spacing between logo + title */
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ body {
 .donate-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 3rem;
   align-items: start;
 }
 
@@ -187,7 +187,7 @@ body {
   position: relative;
   overflow: hidden;
   height: 420px;
-  width: 70%;
+  width: 100%;
   border-radius: 18px;
   background: #fff;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
@@ -209,7 +209,7 @@ body {
 
 .zeffy-wrapper iframe {
   width: 100%;
-  min-height: 900px;
+  min-height: 999px;
   border: none;
 }
 
