@@ -260,10 +260,7 @@ body {
     height: 460px;
   }
 
-  .nav-logo {
-    height: 40px;
-    padding-bottom: 1%;
-  }
+  /* .nav-logo duplicate removed for clarity; handled above */
 }
 
 /* ========= TEAM ========= */
