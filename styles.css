@@ -105,6 +105,7 @@ body {
   height: 48px; /* Adjust this number to resize */
   width: auto; /* Keeps proportions correct */
   display: block;
+  padding-bottom: 1%;
 }
 
 .logo-link {
