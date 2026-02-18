@@ -70,7 +70,64 @@
       <div class="container contact-grid">
         <div class="contact-info">
           <h2>Contact Information</h2>
-          <p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@zerodarkbirdie.org">info@zerodarkbirdie.org</a></p>
+          <div class="contact-form">
+  <h2>Get in Touch</h2>
+
+  <form id="howlersForm">
+    
+    <label>First Name (required)</label>
+    <input type="text" id="firstName" required>
+
+    <label>Last Name (required)</label>
+    <input type="text" id="lastName" required>
+
+    <label>Organization</label>
+    <input type="text" id="organization">
+
+    <label>Email (required)</label>
+    <input type="email" id="email" required>
+
+    <label>Phone</label>
+    <input type="tel" id="phone">
+
+    <label>Country</label>
+    <select id="country">
+      <option>United States</option>
+    </select>
+
+    <label>Address Line 1 (required)</label>
+    <input type="text" id="address1" required>
+
+    <label>Address Line 2</label>
+    <input type="text" id="address2">
+
+    <label>City (required)</label>
+    <input type="text" id="city" required>
+
+    <label>State (required)</label>
+    <input type="text" id="state" required>
+
+    <label>ZIP Code (required)</label>
+    <input type="text" id="zip" required>
+
+
+    <label>How would you like to be involved? (required)</label>
+    <textarea id="involvement" required></textarea>
+
+    <label>How did you learn about Us?</label>
+    <input type="text" id="referral">
+
+    <label>
+      <input type="checkbox" id="newsletter">
+      Sign me up for the newsletter!
+    </label>
+
+    <button type="submit">Submit</button>
+
+    <p id="formStatus"></p>
+  </form>
+</div>
+
 
     <!-- CTA -->
     <section class="section cta reveal">

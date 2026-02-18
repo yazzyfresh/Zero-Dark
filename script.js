@@ -68,3 +68,40 @@ const observer = new IntersectionObserver(
 );
 
 reveals.forEach((el) => observer.observe(el));
+
+
+<!-- get in content -->
+document.getElementById("howlersForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const requiredFields = [
+    "firstName", "lastName", "email",
+    "address1", "city", "state", "zip",
+    "involvement"
+  ];
+
+  let valid = true;
+
+  requiredFields.forEach(id => {
+    const field = document.getElementById(id);
+    if (!field.value.trim()) {
+      field.style.borderColor = "red";
+      valid = false;
+    } else {
+      field.style.borderColor = "#ccc";
+    }
+  });
+
+  const status = document.getElementById("formStatus");
+
+  if (!valid) {
+    status.textContent = "Please fill in all required fields.";
+    status.style.color = "red";
+    return;
+  }
+
+  status.textContent = "Your message has been submitted!";
+  status.style.color = "green";
+
+  this.reset();
+});
