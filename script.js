@@ -70,7 +70,7 @@ const observer = new IntersectionObserver(
 reveals.forEach((el) => observer.observe(el));
 
 
-<!-- get in content -->
+// get in content
 document.getElementById("howlersForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
