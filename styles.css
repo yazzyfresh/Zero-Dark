@@ -574,13 +574,17 @@ button {
   margin-top: 20px;
   width: 100%;
   padding: 12px;
-  background: #1a4d8f;
-  color: white;
+  background: #367c12;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
 }
+
+#form-btt:hover {
+    background: #1aa836;
+  }
 
 button:hover {
   background: #ffffff;
@@ -600,6 +604,6 @@ button:hover {
     padding: 10px;
     font-size: 14px;
     background: #1a8f31;
-
   }
-} 
+  
+}
