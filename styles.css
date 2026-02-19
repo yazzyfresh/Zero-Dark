@@ -106,7 +106,6 @@ body {
   height: 48px; /* Adjust this number to resize */
   width: auto; /* Keeps proportions correct */
   display: block;
-  padding-bottom: 1%;
 }
 
 .logo-link {
@@ -124,7 +123,6 @@ body {
 @media (max-width: 600px) {
   .nav-logo {
     height: 40px;
-    padding-bottom: 1%;
   }
 }
 
@@ -146,6 +144,7 @@ body {
 
 .hero-content {
   position: relative;
+  text-align: center;
   max-width: 700px;
 }
 
@@ -529,7 +528,6 @@ body {
   transition-delay: 0.4s;
 }
 
-
 /* ========= get in contact ========= */
 .contact-form {
   max-width: 600px;
@@ -537,7 +535,7 @@ body {
   padding: 25px;
   background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
 }
 
@@ -551,7 +549,9 @@ label {
   font-weight: bold;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   width: 100%;
   padding: 10px;
   margin-top: 6px;
@@ -590,3 +590,16 @@ button:hover {
   margin-top: 10px;
   font-weight: bold;
 }
+
+// ========= CONTACT MOBILE =========//
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 20px;
+  }
+  .form-btt {
+    padding: 10px;
+    font-size: 14px;
+    background: #1a8f31;
+
+  }
+} 
