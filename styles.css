@@ -582,12 +582,30 @@ button {
   cursor: pointer;
 }
 
+#donation-btn {
+  margin: 20px;
+  width: 167.5px;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #4b6c25;
+  padding: 1rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
 #form-btt:hover {
-    background: #1aa836;
-  }
+  background: #29cb49;
+}
 
 button:hover {
   background: #ffffff;
+  color: #1a8f31;
 }
 
 #formStatus {
@@ -595,7 +613,7 @@ button:hover {
   font-weight: bold;
 }
 
-// ========= CONTACT MOBILE =========//
+/* ========= CONTACT MOBILE =========*/
 @media (max-width: 600px) {
   .contact-form {
     padding: 20px;
@@ -605,5 +623,64 @@ button:hover {
     font-size: 14px;
     background: #1a8f31;
   }
+}
+
+/*======left cta in index========*/
+.cta-left {
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.cta-content {
+  max-width: 600px;
+}
+
+.cta-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.cta-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
   
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.9rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  margin: 20px;
+
+}
+
+.btn-primary {
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background:#29721c;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #29721c;
+  color: #000000;
+}
+
+.btn-secondary:hover {
+  background: #29721c;
+  color: #fff;
 }
