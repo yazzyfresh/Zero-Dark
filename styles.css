@@ -579,15 +579,20 @@ textarea {
 }
 
 button {
-  margin-top: 20px;
-  width: 100%;
+  margin: 20px;
+  width: 167.5px;
   padding: 12px;
-  background: #367c12;
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
+  background: #4b6c25;
+  padding: 1rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
 }
 
 #donation-btn {
@@ -671,7 +676,6 @@ button:hover {
   text-decoration: none;
   transition: background 0.2s ease;
   margin: 20px;
-
 }
 
 .btn-primary {
