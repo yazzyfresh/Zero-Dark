@@ -259,9 +259,15 @@ body {
   .zeffy-wrapper {
     height: 460px;
   }
-
-  /* .nav-logo duplicate removed for clarity; handled above */
 }
+
+  @media (max-width: 320px) {
+
+  .zeffy-wrapper {
+    height: 560px;
+  }
+}
+
 
 /* ========= TEAM ========= */
 .team-grid {
@@ -475,6 +481,8 @@ body {
     z-index: 2000;
   }
 }
+
+
 
 /* ========= SCROLL REVEAL ========= */
 .reveal {
