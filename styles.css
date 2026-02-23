@@ -76,11 +76,6 @@ body {
   z-index: 2000;
 }
 
-.logo {
-  font-weight: 600;
-  text-decoration: none;
-  color: #000;
-}
 
 /* ========= NAV ========= */
 .main-nav-list {
@@ -261,13 +256,11 @@ body {
   }
 }
 
-  @media (max-width: 320px) {
-
+@media (max-width: 320px) {
   .zeffy-wrapper {
     height: 560px;
   }
 }
-
 
 /* ========= TEAM ========= */
 .team-grid {
@@ -482,8 +475,6 @@ body {
   }
 }
 
-
-
 /* ========= SCROLL REVEAL ========= */
 .reveal {
   opacity: 0;
@@ -578,47 +569,12 @@ textarea {
   margin-top: 6px;
 }
 
-button {
-  margin: 20px;
-  width: 167.5px;
-  padding: 12px;
-  color: rgb(255, 255, 255);
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  background: #4b6c25;
-  padding: 1rem 1.2rem;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-}
 
-#donation-btn {
-  margin: 20px;
-  width: 167.5px;
-  padding: 12px;
-  color: rgb(255, 255, 255);
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  background: #4b6c25;
-  padding: 1rem 1.2rem;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-}
 
-#form-btt:hover {
-  background: #29cb49;
-}
 
 button:hover {
   background: #ffffff;
-  color: #1a8f31;
+  color: #ffffff;
 }
 
 #formStatus {
@@ -630,11 +586,6 @@ button:hover {
 @media (max-width: 600px) {
   .contact-form {
     padding: 20px;
-  }
-  .form-btt {
-    padding: 10px;
-    font-size: 14px;
-    background: #1a8f31;
   }
 }
 
@@ -665,7 +616,6 @@ button:hover {
 .cta-buttons {
   display: flex;
   gap: 1rem;
-  
 }
 
 .btn-primary,
@@ -683,7 +633,7 @@ button:hover {
 }
 
 .btn-primary:hover {
-  background:#29721c;
+  background: #29721c;
 }
 
 .btn-secondary {
