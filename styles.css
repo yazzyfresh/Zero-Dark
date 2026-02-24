@@ -43,7 +43,7 @@ body {
 
 .heading-secondary {
   font-size: clamp(1.6rem, 4vw, 2.5rem);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .lead {
@@ -65,7 +65,7 @@ body {
 
 /* ========= HEADER ========= */
 .header {
-  height: 5%;
+  height: 1%;
   padding: 0 1rem;
   display: flex;
   align-items: center;
@@ -570,8 +570,6 @@ textarea {
 }
 
 
-
-
 button:hover {
   background: #ffffff;
   color: #ffffff;
@@ -645,4 +643,29 @@ button:hover {
 .btn-secondary:hover {
   background: #29721c;
   color: #fff;
+}
+
+.btn-head,
+.btn-header {
+  padding: 0.9rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  margin: 20px;
+}
+
+.btn-head {
+  color: #ffffff;
+}
+
+.btn-head:hover {
+  background: #29721c;
+  color : #ffffff;
+}
+
+.btn-header {
+  background: transparent;
+  border: 2px solid #29721c;
+  color: #000000;
 }
