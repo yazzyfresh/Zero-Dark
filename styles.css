@@ -53,14 +53,17 @@ body {
 }
 
 /* ========= BUTTON ========= */
+
 .btn {
   background: #4b6c25;
   color: #fff;
-  padding: 1rem 1.2rem;
-  border-radius: 999px;
+  padding: 0.9rem 1.6rem;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
   display: inline-block;
+  transition: background 0.2s ease;
+  margin: 20px;
 }
 
 /* ========= HEADER ========= */
