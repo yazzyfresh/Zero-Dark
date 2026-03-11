@@ -79,7 +79,6 @@ body {
   z-index: 2000;
 }
 
-
 /* ========= NAV ========= */
 .main-nav-list {
   display: flex;
@@ -572,7 +571,6 @@ textarea {
   margin-top: 6px;
 }
 
-
 button:hover {
   background: #ffffff;
   color: #ffffff;
@@ -581,6 +579,18 @@ button:hover {
 #formStatus {
   margin-top: 10px;
   font-weight: bold;
+}
+
+#form-btt {
+  margin-top: 15px;
+  font-weight: 600;
+  background: #4b6c25;
+  color: #fff;
+  padding: 0.9rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600px;
+  border: none;
+  cursor: pointer;
 }
 
 /* ========= CONTACT MOBILE =========*/
@@ -664,7 +674,7 @@ button:hover {
 
 .btn-head:hover {
   background: #29721c;
-  color : #ffffff;
+  color: #ffffff;
 }
 
 .btn-header {
