@@ -1,209 +1,613 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> Zero Dark Birdie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" href="favicon_io (1)/android-chrome-512x512.png" />
-
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Zero Dark Birdie</title>
 
   <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-/>
+    rel="icon"
+    type="image/png"
+    href="favicon_io (1)/android-chrome-512x512.png"
+  />
 
+  <link rel="stylesheet" href="styles.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
 </head>
 
 <body>
-  <!-- HEADER -->
-<header class="header">
 
-<a href="index.html" class="logo-link">
-  <img src="images/logo.png" alt="Zero Dark Birdie logo" class="nav-logo">
-  <span class="logo-text">Zero Dark Birdie</span>
+  <!-- =====================================================
+       HEADER
+       ===================================================== -->
+
+  <header class="header">
+
+    <a href="index.html" class="logo-link">
+      <img
+        src="images/logo.png"
+        alt="Zero Dark Birdie logo"
+        class="nav-logo"
+      >
+
+      <span class="logo-text">
+        Zero Dark Birdie
+      </span>
+    </a>
+
+    <nav class="main-nav">
+
+      <ul class="main-nav-list">
+
+        <li>
+          <a href="#mission" class="main-nav-link">
+            Mission
+          </a>
+        </li>
+
+        <li>
+          <a href="#impact" class="main-nav-link">
+            Impact
+          </a>
+        </li>
+
+        <li>
+          <a href="#team" class="main-nav-link">
+            Team
+          </a>
+        </li>
+
+        <li>
+          <a href="connect.html" class="main-nav-link">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <a href="donations.html" class="btn-secondary">
+      Make a Donation
+    </a>
+
+    <button
+      class="btn-mobile-nav"
+      aria-label="Toggle navigation"
+    >
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+  </header>
+
+
+  <!-- =====================================================
+       HERO
+       ===================================================== -->
+
+  <section class="section-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+      <h1 class="heading-primary">
+    Golf. Connection.<br>
+    A Path Forward.
+</h1>
+
+<p class="hero-text">
+    Zero Dark Birdie creates golf-centered wellness retreats
+    that help Veterans reconnect, rediscover purpose, and find
+    pathways toward continued support.
+</p>
+
+<a href="donations.html" class="btn">
+    Support the Mission
 </a>
 
-
-
-  <nav class="main-nav">
-    <ul class="main-nav-list">
-     <li><a href="#mission" class="main-nav-link">Mission</a></li>
-      <li><a href="#impact" class="main-nav-link">Impact</a></li>
-      <li><a href="#team" class="main-nav-link">Team</a></li>
-      <li><a href="connect.html" class="main-nav-link">Contact</a></li>
-
-    </ul>
-  </nav>
-
-</button><a href="donations.html" class="btn-secondary">Make a Donation</a>
-  <!-- Hamburger -->
-  
-  <button class="btn-mobile-nav" aria-label="Toggle navigation">
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span>
-  
-</header>
-
-
-
-<section class="section-hero">
-  <div class="hero-overlay"></div>
-  <div class="container hero-content">
-    <h1 class="heading-primary">
-      Honor Through Golf.<br>
-      Opportunity Through Community.
-    </h1>
-    <p class="hero-text">
-      Supporting military families and youth through mentorship,
-      scholarships, and the game of golf.
-    </p>
-    <a href="donations.html" class="btn">Donate Today</a>
-    
-  </div>
-  
-</section>
-
-
-<section id="mission" class="section reveal">
-  <div class="container center">
-    <h2 class="heading-secondary">Our Mission</h2>
-    <p class="lead">
-      We use the discipline and integrity of golf to build leaders,
-      fund education, and serve those who served us.
-    </p>
-  </div>
-</section>
-
-
-<section id="impact" class="section stats reveal">
-  <div class="container stats-grid">
-    
-    <div><h3>1,200+</h3><p>Families Supported</p></div>
-    <div><h3>$2M+</h3><p>Scholarships Awarded</p></div>
-    <div><h3>500+</h3><p>Youth Golfers</p></div>
-  </div>
-</section>
-
-
-<section id="donate-form" class="section donate-section reveal">
-  <div class="container donate-grid">
-
-    
-
-
-    
-      <!-- donation -->
-      <section class="cta-left">
-  <div class="cta-content">
-    <h1 class="cta-title">Your Support Makes a Difference</h1>
-    <p class="cta-subtitle">
-      Serving communities in need with golf-based mentorship, scholarships, and support for military families.
-    </p>
-
-    <div class="cta-buttons">
-      <a href="/donations.html" class="btn-secondary">Donate</a>
-    </div>
-  </div>
-</section>
-
     </div>
 
-  </div>
-</section>
+  </section>
 
 
+  <!-- =====================================================
+       OUR MISSION
+       ===================================================== -->
 
+  <section id="mission" class="section reveal">
 
+    <div class="container center">
 
+      <h2 class="heading-secondary">
+        Our Mission
+      </h2>
 
+      <p class="lead">
 
-<section id="team" class="section reveal">
-  <div class="container">
-    <h2 class="heading-secondary center">Meet Our Team</h2>
-    <div class="team-grid">
-      <div class="team-card"><img src="images/Mathew.jpg"><h4>Mathew Scott</h4><p>Founder</p></div>
-      <div class="team-card"><img src="images/Cody.jpeg"><h4>Cody Harris</h4><p>Co-Founder</p></div>
-      <div class="team-card"><img src="https://i.imgflip.com/x6o9i.jpg"><h4>Raymundo Garza</h4><p>Mental Health Director</p></div>
-      <div class="team-card"><img src="images/EddieRamirez.jpeg"><h4>Eddie Ramirez</h4><p>Board Member</p></div>
-      <div class="team-card"><img src="images/Nick Meraz Headshot.jpeg"><h4>Nick Meraz </h4><p>Board Member</p></div>
-    </div>
-  </div>
-</section>
+        Zero Dark Birdie is dedicated to restoring hope, purpose,
+        and resilience in military veterans facing PTSD and other
+        mental health challenges. Through immersive golf-centered
+        wellness retreats, we provide a supportive environment
+        where veterans can decompress, reconnect, and rediscover
+        their identity beyond service.
 
-<section id="donate" class="section cta reveal">
-  <div class="container center">
-    <h2>Help us change lives</h2>
-    <br>
-    <a href="donations.html" class="btn-secondary">Make a Donation</a>
-  </div>
-</section>
+        <br><br>
 
+        We guide veterans toward trusted, vetted treatment providers
+        and personalized care pathways that support long-term healing.
+        By fostering community, movement, and access to life-changing
+        resources, our mission is to reduce isolation, combat veteran
+        suicide, and create a scalable model for sustainable mental
+        health recovery nationwide.
 
-
-
-<script src="script.js" defer></script>
-</body><footer class="footer">
-  <div class="container footer-grid">
-
-    <!-- Brand / Mission -->
-    <div class="footer-brand">
-      <h3>Zero Dark Birdie</h3>
-      <p>
-        Honor through golf. Opportunity through community.
-        Supporting military families and youth through education and mentorship.
       </p>
+
+
+      <!-- From Combat to Clubhouse -->
+
+      <h2 class="heading-secondary mission-subheading">
+
+        From Combat to Clubhouse:
+        Connection, Purpose & Transformation
+
+      </h2>
+
+      <p class="lead">
+
+        Zero Dark Birdie exists to support veterans facing mental
+        health challenges by creating transformative golf-centered
+        retreats where connection, camaraderie, and access to
+        meaningful resources come together.
+
+        <br><br>
+
+        We believe no veteran should have to navigate the challenges
+        of life after service alone. Our retreats create a safe
+        environment where veterans can step away from the pressures
+        of everyday life, reconnect with their fellow veterans,
+        build genuine relationships, and rediscover purpose.
+
+        <br><br>
+
+        Through golf, peer camaraderie, wellness experiences,
+        education, and connections to trusted mental health and
+        wellness resources, we help veterans identify pathways
+        toward continued support and healing.
+
+        <br><br>
+
+        This isn't just about golf. It's about creating a community
+        where veterans know they belong, have access to resources,
+        and are reminded that their story doesn't end when their
+        service does.
+
+        <br><br>
+
+        Zero Dark Birdie — Net Zero Suicide.
+        Total Transformation.
+
+      </p>
+
     </div>
 
-    <!-- Navigation -->
-    <div class="footer-links">
-      <h4>Explore</h4>
-      <ul>
-        <li><a href="#mission">Our Mission</a></li>
-        <li><a href="#impact">Impact</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="donations.html">Donate</a></li>
-      </ul>
+  </section>
+
+
+  <!-- =====================================================
+       VETERAN MENTAL HEALTH
+       ===================================================== -->
+
+  <section class="section reveal">
+
+    <div class="container center">
+
+      <h2 class="heading-secondary">
+        Veteran Mental Health Needs a New Approach
+      </h2>
+
+      <p class="lead">
+
+        Too many Veterans are struggling in silence. In 2023,
+        6,398 U.S. Veterans died by suicide—an average of 17.5
+        lives lost every day. Even more concerning, 61% of Veterans
+        who died by suicide were not receiving VA health care in
+        the year before their deaths.
+
+        <br><br>
+
+        The challenge extends beyond access to clinical care.
+        Veterans can face PTSD, TBI, anxiety, depression, moral
+        injury, isolation, and the difficult transition from
+        military service to civilian life. For some, asking for
+        help can feel harder than facing the mission itself.
+
+        <br><br>
+
+        Zero Dark Birdie believes the solution starts with connection.
+
+        <br><br>
+
+        Our golf-centered wellness retreats create a place where
+        Veterans can step away, reconnect with their brothers and
+        sisters in service, build genuine camaraderie, and discover
+        trusted mental health and wellness resources.
+
+        <br><br>
+
+        We aren't replacing therapy. We're creating a bridge to it.
+
+        <br><br>
+
+        One Veteran. One connection. One retreat at a time.
+
+        <br><br>
+
+        Net Zero Suicide. Total Transformation.
+
+      </p>
+
     </div>
 
-    <!-- Socials -->
-    <div class="footer-links">
-      <h4>Socials</h4>
-      <ul>
-        <a href="https://www.instagram.com/zero.dark.birdie?igsh=NTc4MTIwNjQ2YQ%3D&utm_source=qr        "><li>Instagram</li></a>
-        <a href="https://www.tiktok.com/@zero.dark.birdie?_r=1&_t=ZT-93cS4hMjt6c"><li>TikTok</li></a>
-      </ul>
+  </section>
+
+
+  <!-- =====================================================
+       GREEN SEPARATOR / CORE MESSAGE
+       ===================================================== -->
+
+  <section id="impact" class="section stats reveal">
+
+    <div class="container center">
+
+      <h2>
+        Connection. Purpose. Transformation.
+      </h2>
+
+      <p>
+        Creating a community where Veterans can reconnect,
+        rediscover purpose, and find a path toward continued support.
+      </p>
+
     </div>
 
-    <!-- CTA -->
-    <div class="footer-cta">
-      <h4>Get Involved</h4>
-      <p>Your support changes lives.</p>
-      <a href="donations.html" class="btn footer-btn">Donate Now</a>
+  </section>
+
+
+  <!-- =====================================================
+       SUPPORT CTA
+       ===================================================== -->
+
+  <section
+    id="donate-form"
+    class="section donate-section reveal"
+  >
+
+    <div class="container">
+
+      <section class="cta-left">
+
+        <div class="cta-content">
+
+          <h2 class="heading-secondary">
+            Your Support Makes a Difference
+          </h2>
+
+          <p class="cta-subtitle">
+
+            Serving communities in need with golf-based mentorship,
+            scholarships, and support for military families.
+
+          </p>
+
+          <div class="cta-buttons">
+
+            <a
+              href="donations.html"
+              class="btn-secondary"
+            >
+              Donate
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
     </div>
 
-  </div>
+  </section>
+
+
+  <!-- =====================================================
+       TEAM
+       ===================================================== -->
+
+  <section id="team" class="section reveal">
+
+    <div class="container">
+
+      <h2 class="heading-secondary center">
+        Meet Our Team
+      </h2>
+
+      <div class="team-grid">
+
+        <div class="team-card">
+
+          <img
+            src="images/Mathew.jpg"
+            alt="Mathew Scott"
+          >
+
+          <h3>
+            Mathew Scott
+          </h3>
+
+          <p>
+            Founder
+          </p>
+
+        </div>
+
+
+        <div class="team-card">
+
+          <img
+            src="images/Cody.jpeg"
+            alt="Cody Harris"
+          >
+
+          <h3>
+            Cody Harris
+          </h3>
+
+          <p>
+            Co-Founder
+          </p>
+
+        </div>
+
+
+        <div class="team-card">
+
+          <img
+            src="https://i.imgflip.com/x6o9i.jpg"
+            alt="Raymundo Garza"
+          >
+
+          <h3>
+            Raymundo Garza
+          </h3>
+
+          <p>
+            Mental Health Director
+          </p>
+
+        </div>
+
+
+        <div class="team-card">
+
+          <img
+            src="images/EddieRamirez.jpeg"
+            alt="Eddie Ramirez"
+          >
+
+          <h3>
+            Eddie Ramirez
+          </h3>
+
+          <p>
+            Board Member
+          </p>
+
+        </div>
+
+
+        <div class="team-card">
+
+          <img
+            src="images/Nick Meraz Headshot.jpeg"
+            alt="Nick Meraz"
+          >
+
+          <h3>
+            Nick Meraz
+          </h3>
+
+          <p>
+            Board Member
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       FINAL CTA
+       ===================================================== -->
+
+  <section id="donate" class="section cta reveal">
+
+    <div class="container center">
+
+      <h2 class="heading-secondary">
+        Help Us Change Lives
+      </h2>
+
+      <br>
+
+      <a
+        href="donations.html"
+        class="btn-secondary"
+      >
+        Make a Donation
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
 
   <footer class="footer">
-  <div class="container footer-grid">
 
-    <!-- Brand / Logo -->
-    <div class="footer-brand">
-      <img src="images/logo.png" alt="Zero Dark Birdie logo" class="footer-logo"> 
+    <div class="container footer-grid">
 
-      <h3 class="footer-logo-text">Zero Dark Birdie</h3>
-<br>
-    
+
+      <!-- BRAND -->
+
+      <div class="footer-brand">
+
+        <img
+          src="images/logo.png"
+          alt="Zero Dark Birdie logo"
+          class="footer-logo"
+        >
+
+        <h3 class="footer-logo-text">
+          Zero Dark Birdie
+        </h3>
+
+        <p>
+          Honor through golf. Opportunity through community.
+          Supporting military families and youth through education
+          and mentorship.
+        </p>
+
+        <p class="copyright">
+          Copyright &copy; 2027 by ZeroDarkBirdie, Inc.
+          All rights reserved.
+        </p>
+
+      </div>
+
+
+      <!-- EXPLORE -->
+
+      <div class="footer-links">
+
+        <h4>
+          Explore
+        </h4>
+
+        <ul>
+
+          <li>
+            <a href="#mission">
+              Our Mission
+            </a>
+          </li>
+
+          <li>
+            <a href="#impact">
+              Impact
+            </a>
+          </li>
+
+          <li>
+            <a href="#team">
+              Team
+            </a>
+          </li>
+
+          <li>
+            <a href="donations.html">
+              Donate
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+      <!-- SOCIALS -->
+
+      <div class="footer-links">
+
+        <h4>
+          Socials
+        </h4>
+
+        <ul>
+
+          <li>
+            <a
+              href="https://www.instagram.com/zero.dark.birdie"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.tiktok.com/@zero.dark.birdie"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TikTok
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+      <!-- GET INVOLVED -->
+
+      <div class="footer-cta">
+
+        <h4>
+          Get Involved
+        </h4>
+
+        <p>
+          Your support changes lives.
+        </p>
+
+        <a
+          href="donations.html"
+          class="btn footer-btn"
+        >
+          Donate Now
+        </a>
+
+      </div>
 
     </div>
-    
-</footer>
-<p class="copyright">
-            Copyright &copy; <span class="year">2027</span> by ZeroDarkBirdie, Inc.
-            All rights reserved.
-          </p>
+
+  </footer>
+
+
+  <script src="script.js" defer></script>
+
+</body>
 
 </html>
